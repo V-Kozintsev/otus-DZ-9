@@ -1,15 +1,16 @@
-h2 {
-  color: yellow;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-color: red;
+  color: #000; /* Правильно */
+  background-color: #fff; /* Правильно */
+  font-size: 16px /* Ошибка: Отсутствует точка с запятой */;
+  margin: 0 /* Правильно */
 }
+
 p {
   color: blue;
 }

@@ -24,6 +24,17 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+            options: {
+              // параметры по желанию
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/i,
         use: [
           MiniCssExtractPlugin.loader, // Извлечение CSS
