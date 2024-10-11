@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hello,world"),document.getElementById("btn").addEventListener("click",(function(e){e.preventDefault(),console.log("hel web")}))})();
+(()=>{"use strict";document.getElementById("btn").addEventListener("click",(function(e){e.preventDefault()}))})();
