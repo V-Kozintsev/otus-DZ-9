@@ -9,6 +9,8 @@
 
 /* footer */
 @import url("./footer/footer.css");
+/* chat */
+@import url("./chat-section/chat-section.css");
 
 html,
 body,
