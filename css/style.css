@@ -119,11 +119,47 @@
   margin: 2rem;
 }
 
+.header,
+.header a {
+  color: white;
+}
+.chat-section {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.chat-window {
+  border: 2px solid black;
+  max-width: 40%;
+  margin-top: 1rem;
+}
+.chat-form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 10px;
+}
+.username-input {
+  display: block;
+  max-width: 10%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.message-input {
+  display: block;
+  max-width: 20%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.btn-chat {
+  max-width: 20%;
+}
+
 /* header */
 
 /* main-section */
 
 /* footer */
+/* chat */
 
 html,
 body,
