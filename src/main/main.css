@@ -1,0 +1,20 @@
+.heading-main-content {
+  font-size: 1.6rem;
+  margin: 2rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.text-main-content {
+  font-size: 1.1rem;
+  margin: 0.5rem 2rem;
+  line-height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.link a {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 2rem;
+}
