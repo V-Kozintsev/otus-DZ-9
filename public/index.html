@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="../src/slider-plagin.js"></script>
     <title>Блог</title>
   </head>
   <body>
@@ -23,6 +24,34 @@
 
       <main class="main-content">
         <h1 class="heading-main-content">Список статей</h1>
+        <ul class="carusel-inner">
+          <li class="carusel-item active">
+            <img
+              class="carusel-slider"
+              src="../src/img/firstslide.svg"
+              alt=""
+            />
+          </li>
+          <li class="carusel-item">
+            <img
+              class="carusel-slider"
+              src="../src/img/secondslide.svg"
+              alt=""
+            />
+          </li>
+          <li class="carusel-item">
+            <img
+              class="carusel-slider"
+              src="../src/img/thirdslide.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+        <div class="box-carousel-control">
+          <button class="prev">Назад</button>
+          <button class="next">Вперед</button>
+        </div>
+
         <article>
           <h2 class="link"><a href="article.html">Заголовок статьи</a></h2>
           <p class="text-main-content">
