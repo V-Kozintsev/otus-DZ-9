@@ -1,0 +1,17 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "npx eslint --fix",
+    "*.{html,css,js,yml}": "prettier --write",
+    "*.{css,md,yml}": "prettier --write",
+    "*.css": "stylelint --fix"
+  },
+  "scripts": {
+    "lint": "eslint . && stylelint '**/*.css'",
+    "format": "prettier --write ."
+  }
+}
