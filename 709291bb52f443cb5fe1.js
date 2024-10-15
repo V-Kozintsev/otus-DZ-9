@@ -1,1 +1,0 @@
-!function(){var e=document.querySelectorAll(".carusel-item"),t=document.querySelector(".prev"),n=document.querySelector(".next"),c=0,o=function(){e.forEach((function(e,t){e.classList.toggle("active",t===c)}))};t.addEventListener("click",(function(){c=0===c?e.length-1:c-1,o()})),n.addEventListener("click",(function(){c=c===e.length-1?0:c+1,o()})),o()}();
